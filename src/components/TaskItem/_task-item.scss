@@ -1,0 +1,19 @@
+.taskContainer {
+  background-color: rgba(211, 211, 211, 0.5);
+  border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+  &:hover {
+    background-color: rgba(169, 169, 169, 0.5);
+  }
+}
+
+.contentStyle {
+  display: flex;
+  align-items: center;
+}
+
+.removeTaskStyle {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 0px;
+  overflow: hidden;
+}

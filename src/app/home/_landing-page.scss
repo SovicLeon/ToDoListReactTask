@@ -1,0 +1,16 @@
+.tasksContainer {
+    max-width: 750px;
+    padding: 16px;
+}
+
+.headerRow {
+    background-color: rgb(211, 211, 211);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+    padding: 10px 0;
+
+    .contentStyle {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+    }
+}
